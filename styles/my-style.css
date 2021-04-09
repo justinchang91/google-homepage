@@ -2,4 +2,68 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: lightcyan;
 }
+
+nav .nav-left {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    width: 160px;
+    justify-content: space-evenly;
+}
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    width: 230px;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 80px;
+    width: 99%;
+    bottom: 0;
+    background-color: grey;
+}
+
+footer .top-footer {
+    display: flex;
+    background-color: lightsalmon;
+    height: 50%;
+    align-items: center;
+}
+
+footer .top-footer p {
+    padding-left: 20px;
+}
+
+footer .bottom-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 50%;
+}
+
+footer .bottom-footer .footer-left {
+    display: flex;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    width: 440px;
+    justify-content: space-evenly;
+}
+
+footer .bottom-footer .footer-right {
+    display: flex;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
