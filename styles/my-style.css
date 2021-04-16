@@ -1,3 +1,7 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -12,13 +16,13 @@ nav .nav-left {
     width: 160px;
     justify-content: space-evenly;
 }
+
 nav .nav-right {
     display: flex;
     align-items: center;
     background-color: lightgreen;
     width: 230px;
     justify-content: space-evenly;
-
 }
 
 footer {
@@ -67,4 +71,18 @@ footer .bottom-footer .footer-right {
     justify-content: space-evenly;
 }
 
+.google-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -150px;
+    background-color: cyan;
+}
 
+.search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: lightsteelblue;
+    margin: -150px 0 0 -280px;
+}
