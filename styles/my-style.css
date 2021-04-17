@@ -71,18 +71,34 @@ footer .bottom-footer .footer-right {
     justify-content: space-evenly;
 }
 
-.google-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -250px 0 0 -150px;
-    background-color: cyan;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
 }
 
-.search-bar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: lightsteelblue;
-    margin: -150px 0 0 -280px;
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 600px;
 }
+
+.textbox {
+    width: 520px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+
+
+
+
