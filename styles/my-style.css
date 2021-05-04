@@ -1,5 +1,5 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     font-family: arial, sans-serif;
     font-size: 14px;
     display: flex;
@@ -10,7 +10,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: lightcyan;
+    background-color: white;
     height: 48px;
 }
 
@@ -22,7 +22,7 @@ nav {
 nav .nav-left {
     display: flex;
     align-items: center;
-    background-color: lightgreen;
+    background-color: white;
     width: 125px;
     justify-content: space-evenly;
 }
@@ -30,7 +30,7 @@ nav .nav-left {
 nav .nav-right {
     display: flex;
     align-items: center;
-    background-color: lightgreen;
+    background-color: white;
     width: 230px;
     justify-content: space-evenly;
 }
@@ -47,7 +47,7 @@ footer {
     height: 80px;
     width: 99%;
     bottom: 0;
-    background-color: grey;
+    background-color: white;
     font-size: 15px;
 }
 
@@ -58,7 +58,7 @@ footer {
 
 footer .top-footer {
     display: flex;
-    background-color: lightsalmon;
+    background-color: white;
     height: 50%;
     align-items: center;
 }
@@ -71,14 +71,14 @@ footer .bottom-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: lightblue;
+    background-color: white;
     height: 50%;
 }
 
 footer .bottom-footer .footer-left {
     display: flex;
     align-items: center;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     width: 440px;
     justify-content: space-evenly;
 }
@@ -86,7 +86,7 @@ footer .bottom-footer .footer-left {
 footer .bottom-footer .footer-right {
     display: flex;
     align-items: center;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     width: 300px;
     justify-content: space-evenly;
 }
@@ -112,7 +112,7 @@ footer .bottom-footer .footer-right {
 form {
     display: flex;
     flex-direction: column;
-    background-color: lightslategray;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     height: 180px;
@@ -126,7 +126,12 @@ form {
     border-radius: 25px;
 }
 
+button {
+    border: 1px solid #f8f9fa;
+    height: 30px;
+    border-radius: 4px;
+}
 
-
-
-
+button:hover{
+    border: 1px solid lightgray;
+}
